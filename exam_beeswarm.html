@@ -537,17 +537,17 @@
 
   <section class="winner-panel" id="winner">
     <div class="winner-image">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Boa_constrictor_on_couch.jpg/600px-Boa_constrictor_on_couch.jpg"
-           alt="A boa constrictor stretched across a couch — giving a sense of the scale of a small boa"
+      <img src="https://jonathansjungleroadshow.co.uk/wp-content/uploads/2025/04/Pele-28.4.254.jpg.webp"
+           alt="A Brazilian rainbow boa coiled on a hand, showing its iridescent scales"
            loading="lazy"
            onerror="this.style.display='none'; this.nextElementSibling.style.display='none';">
-      <div class="image-credit">photo: <a href="https://commons.wikimedia.org/wiki/File:Boa_constrictor_on_couch.jpg" target="_blank" rel="noopener">Wikimedia Commons</a></div>
+      <div class="image-credit">photo: <a href="https://jonathansjungleroadshow.co.uk/" target="_blank" rel="noopener">Jonathan's Jungle Roadshow</a></div>
     </div>
     <div class="winner-text">
       <div class="winner-label">Current winner</div>
-      <h2 class="winner-title">A <em>small boa</em>, at 2 kg.</h2>
-      <p>The class median lands at 2 kg of snake. A juvenile boa constrictor or a fully-grown rainbow boa is probably the best fit — powerful constrictors, semi-arboreal, and engaged enough to wrap a limb when startled. A ball python at the same weight tends to coil into a defensive ball; a small boa actually does something.</p>
-      <p>Could it knock you over? On flat ground, a 2 kg snake doesn't have the mass or torque to push or pull a standing adult off balance. But a small boa wrapped around your ankle mid-stride could absolutely bring you down — your weight transfers to that foot, you can't lift it, and you go through your own momentum.</p>
+      <h2 class="winner-title">Perhaps this <em>Brazilian rainbow boa</em>.</h2>
+      <p>The class median lands at 2&nbsp;kg of snake. The most honest behavioral fit at that weight is a small boa — and a Brazilian rainbow boa (<em>Epicrates cenchria</em>) is a great candidate. Iridescent, semi-arboreal, and engaged enough to wrap a limb when startled. A ball python at the same weight tends to coil into a defensive ball; a small boa actually does something.</p>
+      <p>Could it knock you over? On flat ground, a 2&nbsp;kg snake doesn't have the mass or torque to push or pull a standing adult off balance. But a small boa wrapped around your ankle mid-stride could absolutely bring you down — your weight transfers to that foot, you can't lift it, and you go through your own momentum.</p>
       <p class="caveat">Whether that's really "pushing or pulling" is a fun question. The snake's body is essentially an anchor — your own walking does the work. Not quite the active force the question asks for, but the closest a 2&nbsp;kg snake gets to the right physics.</p>
     </div>
   </section>
@@ -748,10 +748,10 @@
     'font-size': 11,
     fill: 'var(--c-mammal)'
   });
-  medSubLab.textContent = '≈ a small boa  ↓';
+  medSubLab.textContent = '≈ a snake  ↓';
   medLink.appendChild(medSubLab);
   // dashed underline as link affordance
-  const underlineW = 100;
+  const underlineW = 76;
   medLink.appendChild($('line', {
     x1: medianX - underlineW/2, x2: medianX + underlineW/2,
     y1: 51, y2: 51,
@@ -873,12 +873,11 @@
     },
     {
       target: data.find(d => d.name === 'Colony of small fish'),
-      anchor: { x: 470, y: 235 },
+      anchor: { x: 470, y: 215 },
       title: 'Swarm in water',
       titleClass: 'fish',
-      body: ['Standing halfway in water, a',
-             'swarm of small fish pushes your',
-             'legs as one coordinated mass.'],
+      body: ['Standing halfway in water — a',
+             'swarm pushes your legs as one body.'],
       align: 'end',
       below: true
     }
